@@ -1,0 +1,15 @@
+a.out
+*.a
+*.6
+*.pyc
+*~
+.settings
+*project
+*workspace
+docs/_*
+.idea
+pkg/
+src/*
+!src/app/
+.sass-cache/
+bin/
