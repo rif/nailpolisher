@@ -33,12 +33,12 @@ var (
 	s3TestBucketId       = "test.lov3ly.me"
 	S3_URL               = ""
 	s3BucketId           = ""
-	s3AccessKey          = "AKIAJSGC6DXCDEBVCX5A"
-	s3SecretKey          = "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"
+	s3AccessKey          = "xxx"
+	s3SecretKey          = "xxx"
 	S3Bucket             *s3.Bucket
 	Cache                = cache.New(5*time.Minute, 30*time.Second)
 	sentry               *raven.Client
-	SENTRY_DSN           = "https://6f2b0773ce8a4453844d54ef4ddf85b9:87e0696443544be0b978b7e566a8b50e@sentry-rif.rhcloud.com/2"
+	SENTRY_DSN           = "https://xxx:xxx@sentry-rif.rhcloud.com/2"
 	Translations         map[string]Trans
 )
 
